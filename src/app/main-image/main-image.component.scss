@@ -1,0 +1,23 @@
+.mydiv {
+    position: relative;
+    z-index: 1;
+    
+}
+.mydiv .bg { 
+    position: absolute;
+    z-index: -1;
+    width: 1799px;
+    height: 610px;
+    margin-left: 121px;
+    margin-bottom: 20px;
+    background-image: url(../../assets/main_image.png);
+    opacity: 1;
+    button{
+        margin-top: 450px;
+        margin-left: 60px;
+        width: 250px;
+        height: 60px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #053C83;
+    }
+}

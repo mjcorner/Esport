@@ -1,0 +1,29 @@
+.tournament{
+    margin-top: 750px;
+    .games{
+        margin-left: 178px;
+        width: 487px;
+        height: 51px;
+        text-align: left;
+        font: normal normal bold 38px/48px Univers;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+
+    .figures{
+        display: inline-flex;
+        margin-left: 145px;
+        width: 393px;
+        height: 390px;
+        opacity: 1;
+        figcaption{
+            text-align: left;
+            font: normal normal bold 21px/32px Univers;
+            letter-spacing: 0px;
+            color: #000000;
+        }
+    }
+}
+
+
