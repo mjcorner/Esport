@@ -1,0 +1,39 @@
+.playerdetails{
+    display: flex;
+    margin-top: 50px;
+    .image {
+        margin-left: 166px;
+        width: 71px;
+        height: 71px;
+        margin-right: 20px;
+    }
+    .name{
+        font: normal normal bold 28px/35px Univers;
+        color: #000000;
+        vertical-align: middle;
+    }
+}
+
+.one{
+    position: relative;
+    z-index: 1;
+}
+.one .bckgrnd{
+    position: absolute;
+    z-index: -1;
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 1672px;
+    height: 569px;
+    background-image: url(../../assets/player.png);
+    p{  
+        margin-top: 150px;
+        margin-left: 1100px;
+        width: 560px;
+        height: 150px;
+        text-align: left;
+        font: normal normal bold 38px/48px Univers;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+}

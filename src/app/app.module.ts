@@ -12,6 +12,8 @@ import { MainImageComponent } from './main-image/main-image.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTableModule} from '@angular/material/table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PlayerDetailsComponent } from './player-details/player-details.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     TournamentsComponent,
     SportsCoachComponent,
-    MainImageComponent
+    MainImageComponent,
+    PlayerDetailsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

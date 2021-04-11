@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-image',
@@ -7,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainImageComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private route: ActivatedRoute, private router: Router) { }
+  // onButtonClick(): void {
+  //   this.router.navigate(['/playerdetails']);
+  // }
   ngOnInit(): void {
   }
 
